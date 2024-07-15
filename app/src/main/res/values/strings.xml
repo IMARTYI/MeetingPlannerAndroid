@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calendar App</string>
+    <string name="date">Today\'s Date:     </string>
+    <string name="check_mettings">Up Coming Meetings</string>
+    <string name="create_meeting">Create Meeting</string>
+    <string name="contacts">Contacts</string>
+    <string name="title_activity_new_meeting">new_meeting</string>
+
+</resources>

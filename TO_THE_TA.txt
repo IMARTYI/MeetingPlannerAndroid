@@ -1,0 +1,36 @@
+David Martin
+6995948
+
+This is a rundown for what I have implemented fir the applicaton.
+
+--> When you first open the application a Calendar will be presented to you.
+
+--> To create an event, simply click on a date on the calendar that is either the date you are marking this, or after. (The app accounts for not being able to add events in the past)
+
+--> Then you will be brough to a menu in which you enter the event name, description,contact, as well as the specific time using the android timer component. After this Click, Add meeting and there should be promt
+telling you that the event has been added to the database.
+
+--> Following this, click back to get to the home menu. Then Click up Coming Meetings and it should show you the up Coming meeting as well as the meeting that is comming up with the Meeting name, description, time and date.
+
+-- > THERE IS A BUG when selecting your contact from the contact spinner, selecting  the first entry is null. This not the case for selecting other contacts.
+
+--> On the upcomming meetings menu you can Choose to do the following:
+	-- Remove all meetings
+	-- Remove meetings on the current date
+	-- Push meetings today to either the following if it's Monday-Thursday.
+	-- Push meetings to next Sunday if its a Saturday
+	--Push meetings to next Monday if its friday
+
+--> Lastly, clicking the contacts button on the top right in the main menu will allow the app to access all the contacts on the device.
+--> In terms of contacts, the application retrives contacts from the device itself. So to have any contacts on the app, the user would have to have contacts on the device itself to be accessed.
+
+
+Thank you,
+David Martin.
+
+
+
+
+
+
+

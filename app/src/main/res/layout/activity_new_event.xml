@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".newEvent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/topPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:background="@color/greenish"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:id="@+id/Input_zone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Title_promt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meeting Name"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Meeting_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meeting Description"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Meeting_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Time"
+                android:textSize="20sp" />
+
+            <TimePicker
+
+                android:id="@+id/select_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/greenish"
+                android:numbersSelectorColor="@color/greenish"
+                android:amPmTextColor="@color/greenish"
+                android:foregroundTint="@color/greenish" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seclect Contact"
+                android:textSize="20sp"
+                >
+
+            </TextView>
+
+            <Spinner
+                android:id="@+id/contact_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp">
+
+            </Spinner>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+
+
+                <Button
+                    android:id="@+id/Add_meeting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Meeting"
+                    tools:ignore="HardcodedText"
+                    android:backgroundTint="@color/greenish"
+                    >
+                </Button>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                >
+
+                <Button
+                    android:id="@+id/Back_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:backgroundTint="@color/greenish"
+                    ></Button>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

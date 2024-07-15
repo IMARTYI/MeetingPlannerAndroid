@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <TextView
+        android:id="@+id/topPanelMeeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_meeting"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:background="@color/greenish"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+       >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/Input_zone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/topPanelMeeting"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/Title_promt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meeting Name"
+            android:textSize="20dp"
+            >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>
