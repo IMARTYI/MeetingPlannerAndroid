@@ -1,7 +1,3 @@
-// David Martin
-//6995948
-//dm20zo
-// April 3rd, 2024
 
 package com.example.assign_2;
 
